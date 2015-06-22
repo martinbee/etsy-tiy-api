@@ -1,0 +1,43 @@
+.border {
+  border: 1px solid black;
+}
+
+.margin {
+margin: 10px;
+}
+
+.media {
+margin-top: 10px;
+}
+
+.media:first-child {
+    margin-top: 10px;
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.btn-text {
+  font-size: 1.7em;
+}
+
+.btn-primary, .btn{
+  background: #59FF59 !important;
+  border: 1px solid #59FF59 !important;
+  &:hover{
+    background: #59FF6D;
+    border: 1px solid #59FF6D;
+    box-shadow:rgba(0, 0, 0, 0.3) 0 3px 3px 0;
+    -webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 3px 3px 0;
+    -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 3px 3px 0;
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #FF5959;
+  color: white;
+}

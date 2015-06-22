@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <h1>Most Recent Etsy Listings</h1>
+</div>
+<div class="button">
+  <div id="refresh-button">
+    <%= link_to "Refresh", :refresh, remote:true, class: "btn-primary btn btn-text" %>
+  </div>
+</div>
+<div class="container" id="listings_div">
+  <%= render partial: 'listings' %>
+</div>
